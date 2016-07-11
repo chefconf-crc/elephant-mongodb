@@ -5,3 +5,5 @@ license 'all_rights'
 description 'Installs/Configures elephant-mongodb'
 long_description 'Installs/Configures elephant-mongodb'
 version '0.1.0'
+
+depends 'yum'
