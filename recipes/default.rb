@@ -6,3 +6,6 @@
 
 include_recipe 'elephant-mongodb::install_mongodb' 
 
+service 'mongod' do
+  action [ :enable, :start ]
+end
