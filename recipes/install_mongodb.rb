@@ -15,7 +15,3 @@ yum_repository 'mongodb-org-3.2' do
 end
 
 package 'mongodb-org'
-
-service 'mongod' do 
-  action [ :enable, :start ]
-end
